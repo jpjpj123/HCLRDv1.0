@@ -382,10 +382,10 @@ ncdf = addfile(cdir,"c")
 ncdf->APCP=outrain
 ncdf->DSWRF=outdswrf
 ncdf->DLWRF=outdlwrf
-ncdf->Q10m=outrh
-ncdf->U10m=outu
+ncdf->Q=outrh
+ncdf->U=outu
 ncdf->PSFC=outpsfc
-ncdf->T10m=outt2m
+ncdf->T2m=outt2m
 end do
 delete(t2m2)
 delete(rain2)
